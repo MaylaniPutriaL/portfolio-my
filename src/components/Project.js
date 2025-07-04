@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect } from 'react';
 import './Project.css'; 
 import project1Thumbnail from '../assets/project1-thumbnail.jpg';
 import project2Thumbnail from '../assets/project2-thumbnail.jpg';
@@ -6,8 +6,6 @@ import project3Thumbnail from '../assets/project3-thumbnail.jpg';
 import project4Thumbnail from '../assets/project4-thumbnail.jpg';
 import project5Thumbnail from '../assets/project5-thumbnail.jpg';
 import project6Thumbnail from '../assets/project6-thumbnail.jpg';
-
-
 
 const projects = [
   {
@@ -46,7 +44,6 @@ const projects = [
     id: 5,
     title: 'Tic Tac Toe Game',
     description: 'Menampilkan logika permainan, deteksi kemenangan/seri, dan reset game',
-    // technologies: ['HTML', 'CSS', 'JavaScript'],
     imageUrl: project5Thumbnail,
     githubUrl: 'https://github.com/MaylaniPutriaL/Tic-Tac-Toe-Game',
   },
@@ -54,7 +51,6 @@ const projects = [
     id: 6,
     title: 'Birthday Card',
     description: 'Sebuah kartu ucapan ulang tahun digital dan interaktif yang menampilkan nama penerima secara dinamis, dilengkapi dengan animasi balon dan efek confetti untuk pengalaman yang meriah',
-    // technologies: ['HTML', 'CSS', 'JavaScript'],
     imageUrl: project6Thumbnail,
     githubUrl: 'https://github.com/MaylaniPutriaL/Birthday-Card',
   },
@@ -62,14 +58,12 @@ const projects = [
 
 function ProjectsSection() {
   const sectionRef = useRef(null);
-  const [isVisible, setIsVisible] = useState(false); 
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            setIsVisible(true);
             observer.unobserve(entry.target);
           }
         });
@@ -80,13 +74,14 @@ function ProjectsSection() {
       }
     );
 
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
+    const currentSection = sectionRef.current;
+    if (currentSection) {
+      observer.observe(currentSection);
     }
 
     return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
+      if (currentSection) {
+        observer.unobserve(currentSection);
       }
     };
   }, []);
