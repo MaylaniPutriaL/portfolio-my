@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/Maylani/static/css/main.7799b388.css",
-    "main.js": "/Maylani/static/js/main.1aed396b.js",
+    "main.css": "/Maylani/static/css/main.ec6a1e89.css",
+    "main.js": "/Maylani/static/js/main.097644f5.js",
+    "static/media/cert1.png": "/Maylani/static/media/cert1.a98fd39b97b44110aa3a.png",
+    "static/media/cert3.jpg": "/Maylani/static/media/cert3.a2b046f4054889e64962.jpg",
+    "static/media/cert6.png": "/Maylani/static/media/cert6.1264677c330fa18b9649.png",
+    "static/media/cert5.png": "/Maylani/static/media/cert5.137d751d7452683dbe21.png",
     "static/media/project3-thumbnail.jpg": "/Maylani/static/media/project3-thumbnail.ba6e61e31ceb72bd9d8d.jpg",
+    "static/media/cert4.png": "/Maylani/static/media/cert4.852678adc311a8afc123.png",
     "static/media/whatsapp.png": "/Maylani/static/media/whatsapp.19c160592713bd03a80e.png",
     "static/media/about-me.jpg": "/Maylani/static/media/about-me.97ff271e115a5c6bf133.jpg",
     "static/media/project1-thumbnail.jpg": "/Maylani/static/media/project1-thumbnail.ca12147d46423405a1e8.jpg",
     "static/media/profile-pic.jpg": "/Maylani/static/media/profile-pic.c627ee4edfefd2beab3c.jpg",
+    "static/media/cert2.png": "/Maylani/static/media/cert2.dbc345fd5dac158e3acb.png",
     "static/media/project6-thumbnail.jpg": "/Maylani/static/media/project6-thumbnail.e06e9e4185bc6b0ca522.jpg",
     "static/media/project4-thumbnail.jpg": "/Maylani/static/media/project4-thumbnail.9321e5f2f64e9fb3eb67.jpg",
     "static/media/project2-thumbnail.jpg": "/Maylani/static/media/project2-thumbnail.e0a519949d170256508a.jpg",
     "static/media/project5-thumbnail.jpg": "/Maylani/static/media/project5-thumbnail.28cd4ce96003d72cd26e.jpg",
     "static/media/email.png": "/Maylani/static/media/email.9881c4aa1bf24a054fc2.png",
     "index.html": "/Maylani/index.html",
-    "main.7799b388.css.map": "/Maylani/static/css/main.7799b388.css.map",
-    "main.1aed396b.js.map": "/Maylani/static/js/main.1aed396b.js.map"
+    "main.ec6a1e89.css.map": "/Maylani/static/css/main.ec6a1e89.css.map",
+    "main.097644f5.js.map": "/Maylani/static/js/main.097644f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.7799b388.css",
-    "static/js/main.1aed396b.js"
+    "static/css/main.ec6a1e89.css",
+    "static/js/main.097644f5.js"
   ]
 }
